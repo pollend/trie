@@ -7,14 +7,15 @@
 
 #include "node.h"
 
-void (*result)(char* output);
+typedef void (*result)(char* output);
 
 typedef struct _tree{
     Node* root;
 } Tree;
 
 void addEntry(char* input,Tree* tree);
-void find_all_matching(Tree* tree,result* func);
+void find_all_paritial_matches(Tree* tree,result* func);
+Tree* load_file(char* file);
 
 
 #endif //TRIE_TREE_H

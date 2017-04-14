@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/michaelpollind/CLionProjects/trie/main.cpp">
+		<Unit filename="/home/michaelpollind/CLionProjects/trie/main.c">
+			<Option target="trie"/>
+		</Unit>
+		<Unit filename="/home/michaelpollind/CLionProjects/trie/node.c">
+			<Option target="trie"/>
+		</Unit>
+		<Unit filename="/home/michaelpollind/CLionProjects/trie/node.h">
+			<Option target="trie"/>
+		</Unit>
+		<Unit filename="/home/michaelpollind/CLionProjects/trie/tree.c">
+			<Option target="trie"/>
+		</Unit>
+		<Unit filename="/home/michaelpollind/CLionProjects/trie/tree.h">
 			<Option target="trie"/>
 		</Unit>
 		<Unit filename="/home/michaelpollind/CLionProjects/trie/CMakeLists.txt">

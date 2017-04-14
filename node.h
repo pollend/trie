@@ -5,12 +5,21 @@
 #ifndef TRIE_NODE_H
 #define TRIE_NODE_H
 
-typedef struct _Node{
-    Node* next[sizeof(char)];
-    int end;
-}Node;
+typedef struct Node Node;
+typedef struct Entries Entries;
 
-Node* create_node(Node* current, char key);
+typedef struct Entries{
+    char key;
+    Node* next_node;
+    struct Entries* next_entry;
+};
+
+typedef struct Node{
+    Entries* entry;
+    int end;
+};
+
+Node* create_node(char c);
 Node* get_node(Node* current, char key);
 Node* append_node(Node* current, char key,int end);
 
