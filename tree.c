@@ -4,30 +4,57 @@
 #include "tree.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <memory.h>
 
 void addEntry(char* input,Tree* tree)
 {
     Node* current = tree->root;
-    int length = strlen(input);
+    size_t length = strlen(input);
     for(size_t x = 0; x < length; x++)
     {
-        Node* temp = get_node(current,input[x]);
-        if(temp == 0)
-            current = append_node(current,input[x],-1);
-        else
-            current = temp;
+        current = node_try_next(current,input[x]);
     }
     current->end = 1;
 
 }
 
 
-void find_all_paritial_matches(Tree* tree,result* func)
+void find_all_paritial_matches(Tree* tree,char* match,result func)
 {
-    Node* root = tree->root;
-    for(int i = 0; i < sizeof(char); ++i)
+    Node* current = tree->root;
+    size_t len = strlen(match);
+    for(int i = 0; i < len; ++i)
+    {
+        current = get_node(current,match[i]);
+        if(current == NULL) {
+            printf("can't find matches \n");
+            return;
+        }
+    }
+
+    _walk_node(func,match,current);
+}
+
+void _walk_node(result func,char* str_part,Node* n)
+{
+    Entries* current_entry = n->entry;
+
+    if(n->end)
+        (*func)(str_part);
+
+    while (1)
     {
 
+        if(current_entry == NULL)
+            break;
+
+        char temp[strlen(str_part) + 2];
+        strcpy(temp,str_part);
+        temp[strlen(str_part)] = current_entry->key;
+        temp[strlen(str_part)+1] = '\0';
+
+        _walk_node(func,temp,current_entry->next_node);
+        current_entry = current_entry->next_entry;
     }
 }
 
@@ -52,6 +79,7 @@ Tree* load_file(char* file)
     fclose(fp);
     if (line)
         free(line);
+    return t;
 
 }
 

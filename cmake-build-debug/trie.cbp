@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/michaelpollind/CLionProjects/trie/cmake-build-debug"/>
+				<Option working_dir="/home/michaelpollind/projects/trie/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/michaelpollind/CLionProjects/trie/cmake-build-debug"/>
+				<Option working_dir="/home/michaelpollind/projects/trie/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/michaelpollind/CLionProjects/trie/cmake-build-debug"/>
+				<Option working_dir="/home/michaelpollind/projects/trie/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trie">
-				<Option output="/home/michaelpollind/CLionProjects/trie/cmake-build-debug/trie" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/michaelpollind/CLionProjects/trie/cmake-build-debug"/>
+				<Option output="/home/michaelpollind/projects/trie/cmake-build-debug/trie" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michaelpollind/projects/trie/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 trie"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 trie"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trie/fast">
-				<Option output="/home/michaelpollind/CLionProjects/trie/cmake-build-debug/trie" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/michaelpollind/CLionProjects/trie/cmake-build-debug"/>
+				<Option output="/home/michaelpollind/projects/trie/cmake-build-debug/trie" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michaelpollind/projects/trie/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,29 +77,29 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 trie/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/michaelpollind/CLionProjects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 trie/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michaelpollind/projects/trie/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/michaelpollind/CLionProjects/trie/main.c">
+		<Unit filename="/home/michaelpollind/projects/trie/main.c">
 			<Option target="trie"/>
 		</Unit>
-		<Unit filename="/home/michaelpollind/CLionProjects/trie/node.c">
+		<Unit filename="/home/michaelpollind/projects/trie/node.c">
 			<Option target="trie"/>
 		</Unit>
-		<Unit filename="/home/michaelpollind/CLionProjects/trie/node.h">
+		<Unit filename="/home/michaelpollind/projects/trie/node.h">
 			<Option target="trie"/>
 		</Unit>
-		<Unit filename="/home/michaelpollind/CLionProjects/trie/tree.c">
+		<Unit filename="/home/michaelpollind/projects/trie/tree.c">
 			<Option target="trie"/>
 		</Unit>
-		<Unit filename="/home/michaelpollind/CLionProjects/trie/tree.h">
+		<Unit filename="/home/michaelpollind/projects/trie/tree.h">
 			<Option target="trie"/>
 		</Unit>
-		<Unit filename="/home/michaelpollind/CLionProjects/trie/CMakeLists.txt">
+		<Unit filename="/home/michaelpollind/projects/trie/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

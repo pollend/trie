@@ -19,8 +19,13 @@ typedef struct Node{
     int end;
 };
 
-Node* create_node(char c);
+Node* create_node();
 Node* get_node(Node* current, char key);
-Node* append_node(Node* current, char key,int end);
+Node* node_try_next(Node* current, char key);
+
+Entries* node_entry_match(char key,Node* node);
+void _add_entry(char key,Node* node,Node* next);
+Entries* node_root_entry(Node* n);
+Entries* next_entry(Entries* e);
 
 #endif //TRIE_NODE_H
